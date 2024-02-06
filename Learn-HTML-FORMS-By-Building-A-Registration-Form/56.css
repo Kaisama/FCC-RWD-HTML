@@ -1,0 +1,21 @@
+Step 56
+You want the select element to remain with a white background, but now it is not getting the same min-height as the input and textarea elements.
+
+Move the min-height property and value so that all three element types have the same min-height value, and the select element still has a white background.
+
+Sol:-
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+   min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+ 
+}
